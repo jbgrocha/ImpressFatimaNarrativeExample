@@ -1,0 +1,32 @@
+Simple and quick running installations
+
+In order to run the api you need to install dotnet
+To run it go into api/netcoreapp3.0/
+and run
+dotnet ./FAtiMAHTTPServer.dll 5000 ../scenario.json ../assets.json
+
+The FAtiMa server should be up and running at port 5000
+
+As mentioned, there is a CORS issue with the current version of the API
+In order to bypass, corsproxy was used
+https://www.npmjs.com/package/corsproxy
+
+
+The UI application is the simple test application that was shown in the meeting
+It expects the FAtiMa Api to be running at port 5000
+and corsproxy to be running at port 1337
+
+The UI requires node and npm to run (you might need to install vue.js, but the dependencies should sort that out)
+After having installed node and npm
+Go into ui/
+and run 
+npm install
+so that the required node modules are installed
+
+This should sort all of its dependencies
+in order to run the ui
+just go into ui/
+and run
+npm run serve
+
+You can see examples of calls to the API in the file ui/src/components/ImpressNarrative.vue

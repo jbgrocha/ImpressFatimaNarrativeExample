@@ -1,0 +1,199 @@
+{
+	"root":
+		{
+			"classId": 0,
+			"ScenarioName": "Impress Narrative",
+			"Description": "A simple scenario that exemplifies how to use the FAtiMa toolkit to implement game narrative through a Narrator character that reacts to game events.",
+			"Dialogues": [
+				{
+					"CurrentState": "GAME_START",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Welcome! Enjoy your self! Defeat our challenges and ascend into a higher plane of cognition!",
+					"UtteranceId": "TTS-7CC64C4083307549B060443891BD6E7F"
+				}, 
+				{
+					"CurrentState": "GAME_CONTINUE",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Welcome back! Hope you have taken the time to improve your skills!",
+					"UtteranceId": "TTS-6EB7CC5E4386059A821ACF47E405B0AB"
+				}, 
+				{
+					"CurrentState": "GAME_WIN",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "And so our hero bravely conquered all the challenges that were laid before him and ascended into a higher plane of existence.",
+					"UtteranceId": "TTS-F2110176BF67810CD1AB26A9E95DDADE"
+				}, 
+				{
+					"CurrentState": "GAME_LOSS",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Alas, our hero, like so many others before him, could not succeed. Maybe a new hero will rise...",
+					"UtteranceId": "TTS-923F0EC411A11BC5D5E184E9242F209D"
+				}, 
+				{
+					"CurrentState": "GAME_NOT_STARTED",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Please Join in on the FUN and start the GAME! [[DialogueState(Player)]]",
+					"UtteranceId": "TTS-A322477593934673A85A0169570376D8"
+				}, 
+				{
+					"CurrentState": "WORLD_START",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Welcome to a brand new world full of new and exciting challenges!",
+					"UtteranceId": "TTS-85BF7FF5E1C02D0151C2EE51647FDFDC"
+				}, 
+				{
+					"CurrentState": "WORLD_CONTINUE",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Welcome back to your previously unlocked world!",
+					"UtteranceId": "TTS-09F5D318EE94CD41581D96E2CF6D1165"
+				}, 
+				{
+					"CurrentState": "LEVEL_CONTINUE",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "I see you have decided to stop twiddling your thumbs and finally overcome the challenge that stands before you!",
+					"UtteranceId": "TTS-E7BA1FEE8E475B9CC7960185739AA6DA"
+				}, 
+				{
+					"CurrentState": "WORLD_COMPLETE",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "The princess is in another castle!",
+					"UtteranceId": "TTS-BAF43BB9D09295DE666FE6806ED5553B"
+				}, 
+				{
+					"CurrentState": "LEVEL_WIN",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "And another badie gets anihiliated!",
+					"UtteranceId": "TTS-A7ED2C4390EA7B82B3C4C666096520BC"
+				}, 
+				{
+					"CurrentState": "LEVEL_LOSS",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Win some, lose this one!",
+					"UtteranceId": "TTS-F1243664EEA20F060F8ADDCBAFE749BB"
+				}, 
+				{
+					"CurrentState": "LEVEL_START",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "As you enter a new room, you notice a brand new challenge!",
+					"UtteranceId": "TTS-1821E511FE1F73B3009346576FEEEE83"
+				}, 
+				{
+					"CurrentState": "ACTION_ATTEMPT",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "And he lines up the shot, he shoots and he...",
+					"UtteranceId": "TTS-02E53C9E28D6CA36DED871D6FF4CF62A"
+				}, 
+				{
+					"CurrentState": "ACTION_FAIL",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Fails miserably! MUAHAHAHAH!",
+					"UtteranceId": "TTS-45B01CAD97340A78FDA4B82844D920F6"
+				}, 
+				{
+					"CurrentState": "ACTION_SUCCESS",
+					"NextState": "-",
+					"Meaning": "-",
+					"Style": "-",
+					"Utterance": "Nothing but NET! IMPRESSSIVE!",
+					"UtteranceId": "TTS-61F5AFFB8DE9F2EFC74B35AC006B8659"
+				}],
+			"Characters": [
+				{
+					"KnowledgeBase":
+						{
+							"Perspective": "Narrator",
+							"Knowledge":
+								{
+									"SELF":
+										{
+											"DialogueState(Player)": "GAME_NOT_STARTED, 1"
+										}
+								}
+						},
+					"BodyName": null,
+					"VoiceName": null,
+					"EmotionalState":
+						{
+							"Mood": 0,
+							"initialTick": 0,
+							"EmotionalPool": [],
+							"AppraisalConfiguration":
+								{
+									"HalfLifeDecayConstant": 0.5,
+									"EmotionInfluenceOnMoodFactor": 0.3,
+									"MoodInfluenceOnEmotionFactor": 0.3,
+									"MinimumMoodValueForInfluencingEmotions": 0.5,
+									"EmotionalHalfLifeDecayTime": 15,
+									"MoodHalfLifeDecayTime": 60
+								}
+						},
+					"AutobiographicMemory":
+						{
+							"Tick": 0,
+							"records": []
+						},
+					"OtherAgents":
+						{
+							"dictionary": []
+						},
+					"Goals": []
+				}],
+			"WorldModel":
+				{
+					"Effects":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak([cs], [ns], [m], [style]), [t])",
+									"value": [
+										{
+											"PropertyName": "DialogueState([t])",
+											"NewValue": "[ns]",
+											"ObserverAgent": "*"
+										}]
+								}]
+						},
+					"Priorities":
+						{
+							"dictionary": [
+								{
+									"key": "Event(Action-End, [s], Speak([cs], [ns], [m], [style]), [t])",
+									"value": 1
+								}]
+						}
+				}
+		},
+	"types": [
+		{
+			"TypeId": 0,
+			"ClassName": "IntegratedAuthoringTool.IntegratedAuthoringToolAsset, IntegratedAuthoringTool, Version=1.7.0.0, Culture=neutral, PublicKeyToken=null"
+		}]
+}

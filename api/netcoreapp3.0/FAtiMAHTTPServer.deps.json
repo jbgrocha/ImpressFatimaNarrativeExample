@@ -1,0 +1,293 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "FAtiMAHTTPServer/1.0.0": {
+        "dependencies": {
+          "IntegratedAuthoringTool": "1.7.0",
+          "RolePlayCharacter": "1.5.0",
+          "WebServer": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "FAtiMAHTTPServer.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
+          }
+        }
+      },
+      "ActionLibrary/1.0.0": {
+        "dependencies": {
+          "Conditions": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "Utilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "ActionLibrary.dll": {}
+        }
+      },
+      "AutobiographicMemory/1.0.0": {
+        "dependencies": {
+          "KnowledgeBase": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "Utilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "AutobiographicMemory.dll": {}
+        }
+      },
+      "CommeillFaut/1.7.0": {
+        "dependencies": {
+          "ActionLibrary": "1.0.0",
+          "Conditions": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "KnowledgeBase": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "CommeillFaut.dll": {}
+        }
+      },
+      "Conditions/1.0.0": {
+        "dependencies": {
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "Conditions.dll": {}
+        }
+      },
+      "EmotionalAppraisal/1.4.1": {
+        "dependencies": {
+          "AutobiographicMemory": "1.0.0",
+          "Conditions": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "EmotionalAppraisal.dll": {}
+        }
+      },
+      "EmotionalDecisionMaking/1.2.0": {
+        "dependencies": {
+          "ActionLibrary": "1.0.0",
+          "Conditions": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "EmotionalDecisionMaking.dll": {}
+        }
+      },
+      "GAIPS.Rage/1.0.0": {
+        "dependencies": {
+          "SerializationUtilities": "1.0.0"
+        },
+        "runtime": {
+          "GAIPS.Rage.dll": {}
+        }
+      },
+      "IntegratedAuthoringTool/1.7.0": {
+        "dependencies": {
+          "ActionLibrary": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "KnowledgeBase": "1.0.0",
+          "RolePlayCharacter": "1.5.0",
+          "SerializationUtilities": "1.0.0",
+          "Utilities": "1.0.0",
+          "WellFormedNames": "1.0.0",
+          "WorldModel": "1.0.0"
+        },
+        "runtime": {
+          "IntegratedAuthoringTool.dll": {}
+        }
+      },
+      "KnowledgeBase/1.0.0": {
+        "dependencies": {
+          "Utilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "KnowledgeBase.dll": {}
+        }
+      },
+      "RolePlayCharacter/1.5.0": {
+        "dependencies": {
+          "CommeillFaut": "1.7.0",
+          "EmotionalAppraisal": "1.4.1",
+          "EmotionalDecisionMaking": "1.2.0",
+          "GAIPS.Rage": "1.0.0",
+          "KnowledgeBase": "1.0.0",
+          "SocialImportance": "1.5.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "RolePlayCharacter.dll": {}
+        }
+      },
+      "SerializationUtilities/1.0.0": {
+        "dependencies": {
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "SerializationUtilities.dll": {}
+        }
+      },
+      "SocialImportance/1.5.0": {
+        "dependencies": {
+          "Conditions": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "KnowledgeBase": "1.0.0",
+          "SerializationUtilities": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "SocialImportance.dll": {}
+        }
+      },
+      "Utilities/1.0.0": {
+        "runtime": {
+          "Utilities.dll": {}
+        }
+      },
+      "WebServer/1.0.0": {
+        "dependencies": {
+          "EmotionalAppraisal": "1.4.1",
+          "IntegratedAuthoringTool": "1.7.0",
+          "Newtonsoft.Json": "12.0.2",
+          "RolePlayCharacter": "1.5.0",
+          "WorldModel": "1.0.0"
+        },
+        "runtime": {
+          "WebServer.dll": {}
+        }
+      },
+      "WellFormedNames/1.0.0": {
+        "dependencies": {
+          "SerializationUtilities": "1.0.0",
+          "Utilities": "1.0.0"
+        },
+        "runtime": {
+          "WellFormedNames.dll": {}
+        }
+      },
+      "WorldModel/1.0.0": {
+        "dependencies": {
+          "Conditions": "1.0.0",
+          "GAIPS.Rage": "1.0.0",
+          "WellFormedNames": "1.0.0"
+        },
+        "runtime": {
+          "WorldModel.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FAtiMAHTTPServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
+    "ActionLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AutobiographicMemory/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommeillFaut/1.7.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Conditions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmotionalAppraisal/1.4.1": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmotionalDecisionMaking/1.2.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GAIPS.Rage/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "IntegratedAuthoringTool/1.7.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "KnowledgeBase/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "RolePlayCharacter/1.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SerializationUtilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SocialImportance/1.5.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WebServer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WellFormedNames/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WorldModel/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
